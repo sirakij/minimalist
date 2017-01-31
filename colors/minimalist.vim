@@ -42,6 +42,9 @@ hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE  
 hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#EEEEEE       guibg=#4E4E4E   gui=bold
 hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#EEEEEE       guibg=#4E4E4E   gui=NONE
 hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#EEEEEE       guibg=NONE      gui=NONE
+hi TabLine          guifg=#999999   ctermfg=246     guibg=#444444   ctermbg=238         gui=NONE        cterm=NONE
+hi TabLineFill      guifg=NONE      ctermfg=NONE    guibg=#444444   ctermbg=238         gui=NONE        cterm=NONE
+hi TabLineSel       guifg=#c9d05c   ctermfg=185     guibg=NONE      ctermbg=NONE        gui=bold        cterm=bold
 hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi VertSplit        guifg=#f43753   ctermfg=235     guibg=#282828   ctermbg=235         gui=NONE        cterm=NONE
 hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#303030   gui=NONE
