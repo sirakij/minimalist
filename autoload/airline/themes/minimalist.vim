@@ -28,12 +28,20 @@ let s:R3 = [ '#EEEEEE' , '#262626' , 255 , 235 ]
 " Inactive Mode
 let s:IA = [ '#666666' , '#262626' , 242 , 235 , '' ]
 
+let s:modified = { 'airline_c': [ '#ffffff' , '#450000' , 215     , ''     , ''     ]}
+
+
 let g:airline#themes#minimalist#palette = {}
 let g:airline#themes#minimalist#palette.normal  = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#minimalist#palette.insert  = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#minimalist#palette.visual  = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#minimalist#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 let g:airline#themes#minimalist#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+
+" Modified Mode
+let g:airline#themes#minimalist#palette.normal_modified = s:modified
+let g:airline#themes#minimalist#palette.insert_modified = s:modified
+let g:airline#themes#minimalist#palette.visual_modified = s:modified
 
 " Warning Mode
 let s:WI = [ '#1C1C1C' , '#FFAF5F' , 234 , 215 , '' ]
